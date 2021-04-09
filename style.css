@@ -26,6 +26,7 @@ img
 	width: 7em;
 	height: 3em;
 	margin-left: 32px;
+	margin-top: 26px;
 }
 
 .title 
@@ -43,6 +44,7 @@ img
 	display: flex;
 	list-style-type: none;
 	margin-right: 32px;
+	margin-top: 26px;
 }
 
 .menu_list a
@@ -53,6 +55,7 @@ img
 .menu_list a:hover
 {
 	color: #0065FC;
+	border-top: solid #0065FC;
 }
 
 header
@@ -62,7 +65,7 @@ header
 	width: 100%;
 }
 
-.contenaier_title
+.container_title
 {
 	margin-left: 32px;
 }
@@ -74,7 +77,14 @@ header
 }
 
 
+
 /* Section */
+
+
+
+
+
+
 
 
 
