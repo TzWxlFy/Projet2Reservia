@@ -1,4 +1,4 @@
-@font_face 
+@font-face 
 {
 	font-family: 'raleway';
 	src: url('fonts/raleway/Raleway-Regular.eot');
@@ -25,17 +25,53 @@ img
 {
 	width: 7em;
 	height: 3em;
+	margin-left: 32px;
 }
 
-.title, .p-under-title
+.title 
+{
+	margin-bottom: 8px;
+}
+
+.p-under-title
+{
+	margin-top: 7px;
+}
+
+.menu_list
 {
 	display: flex;
-	height: 15px;
+	list-style-type: none;
+	margin-right: 32px;
 }
 
+.menu_list a
+{
+	padding: 32px;
+}
 
+.menu_list a:hover
+{
+	color: #0065FC;
+}
 
+header
+{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
 
+.contenaier_title
+{
+	margin-left: 32px;
+}
+
+.link_login
+{
+	color: #0065FC;
+	font-weight: bold;
+}
 
 
 /* Section */
