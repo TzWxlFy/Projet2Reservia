@@ -65,11 +65,6 @@ header
 	width: 100%;
 }
 
-.container_title
-{
-	margin-left: 32px;
-}
-
 .link_login
 {
 	color: #0065FC;
@@ -78,7 +73,19 @@ header
 
 
 
-/* Section */
+
+
+
+
+
+
+/* Sections */
+
+.first_section
+{
+	margin-left: 32px;
+}
+
 .search_city
 {
 	display: flex;
@@ -86,16 +93,16 @@ header
 
 .search_city img
 {
-	width: 20px;
-	height: 20px;
 	background-color: #F2F2F2;
 	margin-right: 0px;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-left: 10px;
-	padding-bottom: 8px;
 	border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
+	height: 17px;
+	width: 17px;
+	padding-bottom: 11px;
 }
 
 .search_city input
@@ -103,6 +110,8 @@ header
 	margin-bottom: -10px;
 	width: 190px;
 	height: 32px;
+	font-weight: bold;
+	font-size: 14px;
 }
 
 .search_city label
@@ -120,14 +129,80 @@ header
 	border-top-width: 0px;
 	border-top-style: solid;
 	margin-left: 0px;
-	padding-right: 10px;
+	padding-right: 20px;
 	padding-top: 10px;
 	margin-top: 0px;
 	padding-bottom: 2px;
 	border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
+	font-weight: bold;
 }
 
+.second_section
+{
+	display: flex;
+}
+
+.second_section p
+{
+	margin-right: 25px;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.filters
+{
+	display: flex;
+}
+
+.filters p
+{
+	border: solid; 
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-top: 2px;
+	border-top-style: solid;
+	border-right: 2px;
+	border-right-style: solid;
+	border-left: 2px;
+	border-left-style: solid;
+	border-color: #F2F2F2;
+	border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.filters p:hover
+{
+	color: #0065FC;
+}
+
+.filters img
+{
+	height: 20px;
+	width: 20px;
+	border: solid; 
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-top: 2px;
+	border-top-style: solid;
+	border-right: 2px;
+	border-right-style: solid;
+	border-left: 2px;
+	border-left-style: solid;
+	border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	float: left;
+	margin-right: 9px;
+	color: #DEEBFF; 
+	background-color: #DEEBFF;
+}
 
 
 
