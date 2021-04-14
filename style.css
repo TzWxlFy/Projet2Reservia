@@ -179,6 +179,8 @@ header
 .filters p:hover
 {
 	color: #0065FC;
+	border-color: #DEEBFF;
+	background-color: #DEEBFF;
 }
 
 .filters img
@@ -289,11 +291,16 @@ header
 #accommodation_images
 {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around; 
 	padding-bottom: 32px;
+	margin-right: 1100px;
 }
 
-
+.accommodation_image1
+{
+	margin-bottom: 30px;
+}
 
 
 
