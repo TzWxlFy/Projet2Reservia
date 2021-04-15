@@ -13,7 +13,10 @@
     font-family: 'raleway';
 }
 
-
+.bold 
+{
+	font-weight: bold; 
+}
 
 
 
@@ -199,7 +202,7 @@ header
 
 .marseille_accommodation
 {
-	height: 488.917px;
+	height: 650px;
 	width: 1000px;
 	margin-left: 32px;
 	background-color: #F2F2F2;
@@ -209,7 +212,7 @@ header
 .marseille_accommodation h1
 {
 	padding-top: 30px;
-    padding-left: 25px;
+    padding-left: 34px;
 	z-index: 62px;
 }
 
@@ -218,13 +221,11 @@ header
 	display: flex;
 	flex-wrap: wrap;
 	padding-bottom: 32px;
-    margin-right: 150px;
-    margin-left: 150px;
 }
 
 .accommodation_image
 {
-	height: 110px;
+	height: 120px;
 	width: 220px;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
@@ -255,6 +256,13 @@ figcaption
 	padding-bottom: 8px; 
 	border-bottom-left-radius: 25px; 
 	border-bottom-right-radius: 25px;
+}
+
+.view_more
+{
+	font-weight: bold;
+	padding-left: 34px;
+	margin-top: 0px;
 }
 
 /* Footer */
