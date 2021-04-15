@@ -202,8 +202,8 @@ header
 
 .marseille_accommodation
 {
-	height: 650px;
-	width: 1000px;
+	height: 638px;
+	width: 925px;
 	margin-left: 32px;
 	background-color: #F2F2F2;
 	border-radius: 25px
@@ -213,6 +213,7 @@ header
 {
 	padding-top: 30px;
     padding-left: 34px;
+	margin-bottom: 5px;
 	z-index: 62px;
 }
 
