@@ -179,7 +179,7 @@ header
 {
 	display: flex;
 	position: relative;
-	padding-left: 15px;
+	padding-left: 35px;
 }
 
 .info img
@@ -187,7 +187,14 @@ header
 	height: 12px;
 	position: absolute;
 	left: 0px;
-	top: 19px;
+	top: 14px;
+	border: 1px;
+	border-style: solid; 
+	border-radius: 25px;
+	border-color: #F2F2F2; 
+	padding: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
 }
 
 .marseille_accommodation
@@ -210,7 +217,6 @@ header
 {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
 	padding-bottom: 32px;
     margin-right: 150px;
     margin-left: 150px;
@@ -218,8 +224,8 @@ header
 
 .accommodation_image
 {
-	height: 100px;
-	width: 190px;
+	height: 110px;
+	width: 220px;
 	border-top-right-radius: 25px;
 	border-top-left-radius: 25px;
 	border-width: 4px;
@@ -227,20 +233,29 @@ header
 	border-style: solid;
 	background-color: white;
 	border-color: white;
-	margin-bottom: 30px;
 }
 
 .star_image
 {
-	height: 20px;
-	width: 20px;
+	height: 15px;
+	width: 15px;
+	margin-right: 2px;
 }
 
-/* border-radius: 25px; */
-/* border;;; */
-/* opti opti opti */
-/* changer les pics depuis font awesome */
+.figcap_accommo_image1 p
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
 
+figcaption
+{
+	background-color: white;
+	padding-bottom: 8px; 
+	border-bottom-left-radius: 25px; 
+	border-bottom-right-radius: 25px;
+}
 
 /* Footer */
 
@@ -249,7 +264,6 @@ header
 	/* margin-left: 32px; */
 	/* margin-top: 32px; */
 /* } */
-
 
 
 
