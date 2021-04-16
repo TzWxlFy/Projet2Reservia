@@ -99,13 +99,11 @@ header
 
 .search_city i
 {
-	/* background-color: #F2F2F2; */
-	/* height: 15px; */
-	/* width: 12px; */
-	/* padding: 12px; */
-	/* padding-top: 11px; */
-	/* border-top-left-radius: 12px; */
-	/* border-bottom-left-radius: 12px; */
+	background-color: #F2F2F2;
+	padding: 12px;
+	padding-top: 11px;
+	border-top-left-radius: 12px;
+	border-bottom-left-radius: 12px;
 }
 
 .search_city input
@@ -159,16 +157,7 @@ header
 	border-style: solid;
 	border-radius: 25px;
 	border-color: #F2F2F2;
-}
-
-.filter_1
-{
 	padding-left: 60px;
-}
-
-.filter_2
-{
-	padding-left: 55px;
 }
 
 .filters p:hover
@@ -180,38 +169,57 @@ header
 
 .filters i
 {
-	/* height: 25px; */
-	/* border-width: 9px; */
-	/* border-style: solid;  */
-	/* border-radius: 20px; */
-	/* color: #DEEBFF; */
-	/* background-color: #DEEBFF; */
-	/* position: absolute; */
-	/* top: 0px; */
-	/* left: 0px; */
+	height: 20px;
+	width: 20px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	border-style: solid; 
+	border-radius: 20px;
+	border-color: #DEEBFF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 10px;
+	padding-left: 11px;
+	padding-bottom: 8px;
+	border-top-width: 3px;
+	padding-right: 9px;	
+	border-bottom-width: 2px;
+}
+
+.filter_1_image
+{
+	border-left-width: 0px;
+	border-right-width: 4px;
+}
+
+.filter_2_image
+{
+	border-left-width: 5px;
+	border-right-width: 1px;	
 }
 
 .info
 {
 	display: flex;
 	position: relative;
-	padding-left: 35px;
+	padding-left: 40px;
 	left: 8px;
 }
 
 .info i
 {
-	/* height: 12px; */
-	/* position: absolute; */
-	/* left: 0px; */
-	/* top: 14px; */
-	/* border: 1px; */
-	/* border-style: solid;  */
-	/* border-radius: 25px; */
-	/* border-color: #F2F2F2;  */
-	/* padding: 5px; */
-	/* padding-left: 9px; */
-	/* padding-right: 9px; */
+	height: 12px;
+	position: absolute;
+	left: 0px;
+	top: 11px;
+	border: 1px;
+	border-style: solid; 
+	border-radius: 25px;
+	border-color: #F2F2F2; 
+	padding: 11px;
+	padding-top: 5px;
+	color: #0065FC;
 }
 
 .marseille_accommodation
