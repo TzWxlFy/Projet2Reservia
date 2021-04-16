@@ -18,7 +18,10 @@
 	font-weight: bold; 
 }
 
-
+.padding
+{
+	padding-top: 5px;	
+}
 
 
 
@@ -94,15 +97,15 @@ header
 	display: flex;
 }
 
-.search_city img
+.search_city i
 {
-	background-color: #F2F2F2;
-	height: 15px;
-	width: 12px;
-	padding: 12px;
-	padding-top: 11px;
-	border-top-left-radius: 12px;
-	border-bottom-left-radius: 12px;
+	/* background-color: #F2F2F2; */
+	/* height: 15px; */
+	/* width: 12px; */
+	/* padding: 12px; */
+	/* padding-top: 11px; */
+	/* border-top-left-radius: 12px; */
+	/* border-bottom-left-radius: 12px; */
 }
 
 .search_city input
@@ -132,6 +135,7 @@ header
 .second_section
 {
 	display: flex;
+	margin-left: 10px;
 }
 
 .second_section p
@@ -155,6 +159,15 @@ header
 	border-style: solid;
 	border-radius: 25px;
 	border-color: #F2F2F2;
+}
+
+.filter_1
+{
+	padding-left: 60px;
+}
+
+.filter_2
+{
 	padding-left: 55px;
 }
 
@@ -165,17 +178,17 @@ header
 	background-color: #DEEBFF;
 }
 
-.filters img
+.filters i
 {
-	height: 25px;
-	border-width: 9px;
-	border-style: solid; 
-	border-radius: 20px;
-	color: #DEEBFF;
-	background-color: #DEEBFF;
-	position: absolute;
-	top: 0px;
-	left: 0px;
+	/* height: 25px; */
+	/* border-width: 9px; */
+	/* border-style: solid;  */
+	/* border-radius: 20px; */
+	/* color: #DEEBFF; */
+	/* background-color: #DEEBFF; */
+	/* position: absolute; */
+	/* top: 0px; */
+	/* left: 0px; */
 }
 
 .info
@@ -183,21 +196,22 @@ header
 	display: flex;
 	position: relative;
 	padding-left: 35px;
+	left: 8px;
 }
 
-.info img
+.info i
 {
-	height: 12px;
-	position: absolute;
-	left: 0px;
-	top: 14px;
-	border: 1px;
-	border-style: solid; 
-	border-radius: 25px;
-	border-color: #F2F2F2; 
-	padding: 5px;
-	padding-left: 9px;
-	padding-right: 9px;
+	/* height: 12px; */
+	/* position: absolute; */
+	/* left: 0px; */
+	/* top: 14px; */
+	/* border: 1px; */
+	/* border-style: solid;  */
+	/* border-radius: 25px; */
+	/* border-color: #F2F2F2;  */
+	/* padding: 5px; */
+	/* padding-left: 9px; */
+	/* padding-right: 9px; */
 }
 
 .marseille_accommodation
@@ -217,7 +231,7 @@ header
 	z-index: 62px;
 }
 
-#accommodation_images
+#container_images
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -235,24 +249,25 @@ header
 	border-style: solid;
 	background-color: white;
 	border-color: white;
-}
-
-.star_image
-{
-	height: 15px;
-	width: 15px;
-	margin-right: 2px;
+	object-fit: cover; 
 }
 
 .figcap_accommo_image1 p
 {
-	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 15px;
 }
 
+.figcap_accommo_image1 i
+{
+	/* height: 15px; */
+	/* width: 15px; */
+	/* margin-right: 2px; */
+}
+
 figcaption
 {
+	margin-top: -21px;
 	background-color: white;
 	padding-bottom: 8px; 
 	border-bottom-left-radius: 25px; 
@@ -266,6 +281,7 @@ figcaption
 	margin-top: 0px;
 }
 
+
 /* Footer */
 
 /* footer */
@@ -273,6 +289,13 @@ figcaption
 	/* margin-left: 32px; */
 	/* margin-top: 32px; */
 /* } */
+
+
+/* changer les images avec font awesome (utiliser les liens) */
+/* demander à openclassrooms un certificat du projet 2 */
+/* changer les noms des class sur les filtres */
+/* modifier les paragraphes sur les figcaption */
+/* corriger les erreurs html que le site W3C va donner */
 
 
 
