@@ -221,20 +221,22 @@ header
 	height: 12px;
 	position: absolute;
 	left: 0px;
-	top: 11px;
+	top: 12px;
 	border: 1px;
 	border-style: solid; 
 	border-radius: 25px;
 	border-color: #F2F2F2; 
-	padding: 11px;
-	padding-top: 5px;
+	padding: 6px;
+	padding-right: 9px;
+	padding-left: 9px;
 	color: #0065FC;
+	margin-left: 3px;
 }
 
 .marseille_accommodation
 {
 	height: 638px;
-	width: 925px;
+	width: 822px;
 	margin-left: 32px;
 	background-color: #F2F2F2;
 	border-radius: 25px
@@ -245,7 +247,6 @@ header
 	padding-top: 30px;
     padding-left: 34px;
 	margin-bottom: 5px;
-	z-index: 62px;
 }
 
 #container_image_marseille
@@ -253,6 +254,17 @@ header
 	display: flex;
 	flex-wrap: wrap;
 	padding-bottom: 32px;
+}
+
+#container_image_marseille figure
+{
+	margin-left: 16px;
+	margin-right: 16px;	
+}
+
+.marginleft
+{
+	margin-left: 16px;
 }
 
 .accommodation_image
@@ -293,7 +305,7 @@ header
 	margin-left: 15px; 
 }
 
-figcaption
+.figcaption_accommo
 {
 	margin-top: -21px;
 	background-color: white;
@@ -309,17 +321,39 @@ figcaption
 	margin-top: 0px;
 }
 
+.figure_famous
+{
+	display: flex;
+	margin-bottom: 0px;
+	margin-top: 0px; 
+}
+
 #container_image_famous
 {
 	position: relative;
 	display: flex;
 	float: right;
-	width: 400px;
+	height: 638.917px;
+	width: 440px;
 	flex-wrap: wrap;
 	top: -638px;
 	background-color: #F2F2F2; 
 	border-radius: 25px;
 	margin-right: 32px;
+}
+
+.accommodation_image_famous
+{
+	height: 141px;
+	width: 148px;
+	border-width: 4px;
+	border-style: solid;
+	background-color: white;
+	border-color: white;
+	object-fit: cover; 
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+
 }
 
 .figcap_accommo_image_famous p
@@ -338,10 +372,10 @@ figcaption
 
 .accommodation_famous h1
 {
+	height: 6px;
 	padding-top: 10px;
     padding-left: 34px;
 	margin-bottom: 5px;
-	z-index: 62px;
 }
 
 .famous_i
@@ -349,8 +383,34 @@ figcaption
 	position: absolute;
 	top: 37px;
 	right: 20px;
-	left: 345px;
+    left: 381px;
 	bottom: 241px;
+}
+
+.figcaption_accommo_famous
+{
+	background-color: white;
+	width: 199.933px;
+	height: 149px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.star_famous
+{
+	padding-top: 30px;
+}
+
+.padding_famous
+{
+	padding-top: 12px;
+}
+
+.padding_cost_famous
+{
+	padding-top: 3px;
 }
 
 
@@ -364,10 +424,6 @@ figcaption
 /* } */
 
 
-/* changer les images avec font awesome (utiliser les liens) */
-/* demander à openclassrooms un certificat du projet 2 */
-/* changer les noms des class sur les filtres */
-/* modifier les paragraphes sur les figcaption */
 /* corriger les erreurs html que le site W3C va donner */
 
 
