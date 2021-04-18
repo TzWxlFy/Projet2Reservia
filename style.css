@@ -236,7 +236,7 @@ header
 .marseille_accommodation
 {
 	height: 638px;
-	width: 822px;
+	width: 814px;
 	margin-left: 32px;
 	background-color: #F2F2F2;
 	border-radius: 25px
@@ -346,13 +346,12 @@ header
 	display: flex;
 	float: right;
 	height: 638.917px;
-	width: 440px;
+	width: 425px;
 	flex-wrap: wrap;
 	top: -638px;
 	background-color: #F2F2F2; 
 	border-radius: 25px;
 	margin-right: 32px;
-	padding-left: 5px; 
 }
 
 .accommodation_image_famous
@@ -392,9 +391,10 @@ header
 .famous_i
 {
 	position: absolute;
+	height: 17;
 	top: 37px;
 	right: 20px;
-    left: 381px;
+    left: 371px;
 	bottom: 241px;
 }
 
