@@ -49,7 +49,7 @@
 	margin-bottom: 8px;
 }
 
-.p-under-title
+.p_under_title
 {
 	margin-top: 7px;
 }
@@ -94,7 +94,7 @@ header
 
 
 
-/* Sections */
+/* 1st section */
 
 .first_section
 {
@@ -254,17 +254,15 @@ header
 	display: flex;
 	flex-wrap: wrap;
 	padding-bottom: 32px;
+	padding-left: 16px;
 }
 
 #container_image_marseille figure
 {
 	margin-left: 16px;
 	margin-right: 16px;	
-}
-
-.marginleft
-{
-	margin-left: 16px;
+	box-shadow: 1px 1px 12px #cac7c6;
+	border-radius: 25px;
 }
 
 .accommodation_image
@@ -321,11 +319,25 @@ header
 	margin-top: 0px;
 }
 
+
+
+
+
+
+
+
+
+/* 2nd section */
+
 .figure_famous
 {
 	display: flex;
-	margin-bottom: 0px;
-	margin-top: 0px; 
+	margin: 0px;
+	margin-left: 34px;
+	height: 148px;
+	margin-bottom: 38px;
+	box-shadow: 1px 1px 12px #cac7c6;
+	border-radius: 25px;
 }
 
 #container_image_famous
@@ -340,6 +352,7 @@ header
 	background-color: #F2F2F2; 
 	border-radius: 25px;
 	margin-right: 32px;
+	padding-left: 5px; 
 }
 
 .accommodation_image_famous
@@ -353,7 +366,6 @@ header
 	object-fit: cover; 
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
-
 }
 
 .figcap_accommo_image_famous p
@@ -372,10 +384,9 @@ header
 
 .accommodation_famous h1
 {
-	height: 6px;
 	padding-top: 10px;
     padding-left: 34px;
-	margin-bottom: 5px;
+	margin-bottom: 21px;
 }
 
 .famous_i
@@ -415,13 +426,59 @@ header
 
 
 
-/* Footer */
 
-/* footer */
-/* { */
-	/* margin-left: 32px; */
-	/* margin-top: 32px; */
-/* } */
+
+
+
+
+
+
+
+/* 3rd section */
+
+.third_section
+{
+	margin-left: 32px;
+	margin-top: 60px;
+}
+
+.activities_figure
+{
+    display: flex;
+	flex-flow: column;
+    margin: 0px;
+	width: 350px;
+	box-shadow: 1px 1px 12px #cac7c6;
+	border-radius: 25px;
+}
+
+.activities_img1
+{
+	object-fit: cover;
+	height: 450px;
+	width: 350px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.activities_figcaption
+{
+    background-color: #FFF;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.activities_figcaption p 
+{
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
 
 
 /* corriger les erreurs html que le site W3C va donner */
