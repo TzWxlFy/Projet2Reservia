@@ -480,17 +480,20 @@ header
 .activities_figure2
 {
     display: flex;
+	position: absolute; 
 	flex-flow: column;
     margin: 0px;
 	width: 350px;
 	box-shadow: 1px 1px 12px #cac7c6;
 	border-radius: 25px;
+	top: 1135.88px;
+	left: 430px;
 }
 
 .activities_img2
 {
 	object-fit: cover;
-	height: 250px;
+	height: 220px;
 	width: 350px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -504,6 +507,44 @@ header
 }
 
 .activities_figcaption2 p 
+{
+	padding-left: 20px;
+}
+
+
+
+/* image 3 */
+
+.activities_figure3
+{
+    display: flex;
+	position: absolute; 
+	flex-flow: column;
+    margin: 0px;
+	width: 350px;
+	box-shadow: 1px 1px 12px #cac7c6;
+	border-radius: 25px;
+	top: 1442.88px;
+	left: 430px;
+}
+
+.activities_img3
+{
+	object-fit: cover;
+	height: 144px;
+	width: 350px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.activities_figcaption3
+{
+    background-color: #FFF;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.activities_figcaption3 p 
 {
 	padding-left: 20px;
 }
