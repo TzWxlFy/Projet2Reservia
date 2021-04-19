@@ -145,13 +145,10 @@ header
 	margin-left: 10px;
 }
 
-.second_section p
+.second_section h4
 {
-	margin-right: 25px;
-	font-weight: bold;
+	margin-right: 12px;
 	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-right: 20px;
 }
 
 .filters
@@ -159,17 +156,21 @@ header
 	display: flex;
 }
 
-.filters p
+.filters h4
 {
 	position: relative;
 	border: 2px;
 	border-style: solid;
 	border-radius: 25px;
 	border-color: #F2F2F2;
-	padding-left: 60px;
+	margin-left: 20px;
+	padding-left: 50px;
+	padding-top: 8px;
+	padding-right: 8px;
+	height: 31px;
 }
 
-.filters p:hover
+.filters h4:hover
 {
 	color: #0065FC;
 	border-color: #DEEBFF;
@@ -178,34 +179,23 @@ header
 
 .filters i
 {
-	height: 20px;
-	width: 20px;
 	color: #0065FC;
 	background-color: #DEEBFF;
 	border-style: solid; 
 	border-radius: 20px;
 	border-color: #DEEBFF;
 	position: absolute;
-	top: 0px;
 	left: 0px;
-	padding-top: 10px;
-	padding-left: 11px;
-	padding-bottom: 8px;
-	border-top-width: 3px;
-	padding-right: 9px;	
-	border-bottom-width: 2px;
-}
-
-.filter_1_image
-{
-	border-left-width: 0px;
-	border-right-width: 4px;
+	bottom: 0px;
+	padding: 11px;
+	padding-top: 12px;
+	border: 0px;
 }
 
 .filter_2_image
 {
-	border-left-width: 5px;
-	border-right-width: 1px;	
+	padding-left: 14px;
+	padding-right: 13px;
 }
 
 .info
@@ -214,6 +204,12 @@ header
 	position: relative;
 	padding-left: 40px;
 	left: 8px;
+}
+
+.info h4
+{
+	font-weight: normal;
+	margin-top: 15.28px;
 }
 
 .info i
@@ -442,7 +438,11 @@ header
 	margin-top: 60px;
 }
 
-.activities_figure
+
+
+/* image 1 */
+
+.activities_figure1
 {
     display: flex;
 	flex-flow: column;
@@ -461,19 +461,52 @@ header
 	border-top-right-radius: 25px;
 }
 
-.activities_figcaption
+.activities_figcaption1
 {
     background-color: #FFF;
 	border-bottom-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 }
 
-.activities_figcaption p 
+.activities_figcaption1 p 
 {
 	padding-left: 20px;
 }
 
 
+
+/* image 2 */
+
+.activities_figure2
+{
+    display: flex;
+	flex-flow: column;
+    margin: 0px;
+	width: 350px;
+	box-shadow: 1px 1px 12px #cac7c6;
+	border-radius: 25px;
+}
+
+.activities_img2
+{
+	object-fit: cover;
+	height: 250px;
+	width: 350px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.activities_figcaption2
+{
+    background-color: #FFF;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.activities_figcaption2 p 
+{
+	padding-left: 20px;
+}
 
 
 
