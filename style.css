@@ -571,7 +571,7 @@ header
 .activities_img4
 {
 	object-fit: cover;
-	height: 450px;
+	height: 442px;
 	width: 300px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -591,13 +591,21 @@ header
 
 
 
-/* image 5 */
+/* image 5 & div 3 */
+
+.activities_div3
+{
+	display: flex;
+	flex-flow: wrap;
+	width: 300px;
+}
 
 .activities_figure5
 {
 	box-shadow: 1px 1px 12px #cac7c6;
 	border-radius: 25px;
 	height: 208px;
+	margin-bottom: 30px;
 	margin-left: 0px; 
 }
 
