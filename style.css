@@ -443,7 +443,7 @@ header
 	margin-bottom: 9px;
 }
 
-.activities_div1
+.activities_div
 {
 	display: flex;
 }
@@ -461,6 +461,14 @@ header
 	border-radius: 25px;
 }
 
+.activities_img
+{
+	object-fit: cover;
+	width: 300px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
 .activities_figcaption p
 {
 	padding-left: 20px;
@@ -471,11 +479,7 @@ header
 
 .activities_img1-4
 {
-	object-fit: cover;
 	height: 425px;
-	width: 300px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 
@@ -485,20 +489,18 @@ header
 .activities_figure2
 {
 	height: 256px;
-	width: 300px;
-	margin-left: 0px; 
-	margin-bottom: 30px;
-	box-shadow: 1px 1px 12px #cac7c6;
-	border-radius: 25px;
 }
 
 .activities_img2
 {
-	object-fit: cover;
 	height: 195px;
-	width: 300px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
+}
+
+/* figure 2 & 5 */
+
+.activities_figure2-5
+{
+	margin-bottom: 30px;
 }
 
 
@@ -508,19 +510,11 @@ header
 .activities_figure3
 {
 	height: 202px;
-	width: 300px;
-	margin-left: 0px; 
-	box-shadow: 1px 1px 12px #cac7c6;
-	border-radius: 25px;
 }
 
 .activities_img3
 {
-	object-fit: cover;
 	height: 139px;
-	width: 300px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 
@@ -530,20 +524,11 @@ header
 .activities_figure5
 {
 	height: 208px;
-	width: 300px;
-	margin-left: 0px; 
-	margin-bottom: 30px;
-	box-shadow: 1px 1px 12px #cac7c6;
-	border-radius: 25px;
 }
 
 .activities_img5
 {
-	object-fit: cover;
 	height: 147px;
-	width: 300px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 
@@ -553,19 +538,11 @@ header
 .activities_figure6
 {
 	height: 250px;
-	width: 300px;
-	margin-left: 0px; 
-	box-shadow: 1px 1px 12px #cac7c6;
-	border-radius: 25px;
 }
 
 .activities_img6
 {
-	object-fit: cover;
 	height: 187px;
-	width: 300px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 
@@ -573,6 +550,53 @@ header
 
 
 
+
+
+/* footer */
+
+footer
+{
+	background-color: #F2F2F2;
+	width: 100%;
+}
+
+/* ul & div */
+
+.about_div
+{
+	display: flex;
+	width: 100%;
+}
+
+.about_ul
+{
+	list-style-type: none;
+	padding-top: 20px;
+	padding-right: 300px;
+	padding-bottom: 28px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.about_ul h4
+{
+	margin-top: 0px;
+}
+
+.about_ul li
+{
+	margin-bottom: 12px;
+}
+
+.about_ul2
+{
+	padding-left: 0px;
+}
+
+.about_ul3
+{
+	padding-left: 0px;
+}
 
 /* corriger les erreurs html que le site W3C va donner */
 
