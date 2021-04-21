@@ -558,6 +558,7 @@ footer
 {
 	background-color: #F2F2F2;
 	width: 100%;
+	margin-top: 40px;
 }
 
 /* ul & div */
@@ -571,32 +572,35 @@ footer
 .about_ul
 {
 	list-style-type: none;
-	padding-top: 20px;
-	padding-right: 300px;
+	padding-top: 35px;
 	padding-bottom: 28px;
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
 
-.about_ul h4
+.about_li
 {
+	margin-bottom: 20px;
 	margin-top: 0px;
 }
 
-.about_ul li
+.about_li2
 {
 	margin-bottom: 12px;
 }
 
-.about_ul2
+.about_ul1-2
+{
+	width: 500px;
+}
+
+.about_ul2-3
 {
 	padding-left: 0px;
 }
 
-.about_ul3
-{
-	padding-left: 0px;
-}
+
+
 
 /* corriger les erreurs html que le site W3C va donner */
 
