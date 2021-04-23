@@ -28,7 +28,10 @@
 	color: #F2F2F2;
 }
 
-
+body
+{
+	margin: 0px;
+}
 
 
 
@@ -59,7 +62,7 @@
 	display: flex;
 	list-style-type: none;
 	margin-right: 32px;
-	margin-top: 26px;
+	margin-top: 34px;
 }
 
 .menu_list a
@@ -77,6 +80,7 @@
 {
 	color: #0065FC;
 	border-top: solid #0065FC;
+	
 }
 
 header
@@ -208,20 +212,17 @@ header
 {
 	display: flex;
 	position: relative;
-	padding-left: 40px;
-	left: 8px;
 }
 
 .info h4
 {
 	font-weight: normal;
-	margin-top: 15.28px;
+	margin-top: 4px;
 }
 
 .info i
 {
 	height: 12px;
-	position: absolute;
 	left: 0px;
 	top: 12px;
 	border: 1px;
@@ -233,11 +234,11 @@ header
 	padding-left: 9px;
 	color: #0065FC;
 	margin-left: 3px;
+	margin-right: 15px;
 }
 
 .marseille_accommodation
 {
-	height: 638px;
 	width: 814px;
 	margin-left: 32px;
 	background-color: #F2F2F2;
@@ -246,7 +247,7 @@ header
 
 .marseille_accommodation h1
 {
-	padding-top: 30px;
+	padding-top: 10px;
     padding-left: 34px;
 	margin-bottom: 5px;
 }
@@ -314,6 +315,21 @@ header
 	border-bottom-right-radius: 25px;
 }
 
+.figcaption_accommo a
+{
+	text-decoration: none;
+}
+
+.figcaption_accommo a:visited
+{
+	color: #000;
+}
+
+.figcaption_accommo a:hover
+{
+	color: #0065FC;
+}
+
 .view_more
 {
 	font-weight: bold;
@@ -334,9 +350,7 @@ header
 .figure_famous
 {
 	display: flex;
-	margin: 0px;
 	margin-left: 34px;
-	height: 148px;
 	margin-bottom: 38px;
 	box-shadow: 1px 1px 12px #cac7c6;
 	border-radius: 25px;
@@ -344,9 +358,6 @@ header
 
 #container_image_famous
 {
-	position: relative;
-	display: flex;
-	float: right;
 	height: 638.917px;
 	width: 425px;
 	flex-wrap: wrap;
@@ -354,6 +365,12 @@ header
 	background-color: #F2F2F2; 
 	border-radius: 25px;
 	margin-right: 32px;
+	margin-left: 75px;
+}
+
+.container_1-2
+{
+	display: flex;
 }
 
 .accommodation_image_famous
@@ -387,17 +404,20 @@ header
 {
 	padding-top: 10px;
     padding-left: 34px;
-	margin-bottom: 21px;
+	margin-bottom: 5px;
+}
+
+.title_i_famous
+{
+	display: flex;
+	justify-content: space-between;
 }
 
 .famous_i
 {
-	position: absolute;
-	height: 17;
-	top: 37px;
-	right: 20px;
-    left: 371px;
-	bottom: 241px;
+	height: 16.917px;
+	margin-top: 37px;
+	margin-right: 32px;
 }
 
 .figcaption_accommo_famous
@@ -409,6 +429,21 @@ header
 	padding-bottom: 0px;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
+}
+
+.figcaption_accommo_famous a
+{
+	text-decoration: none;
+}
+
+.figcaption_accommo_famous a:visited
+{
+	color: #000;
+}
+
+.figcaption_accommo_famous a:hover
+{
+	color: #0065FC;
 }
 
 .star_famous
@@ -452,6 +487,7 @@ header
 .activities_div
 {
 	display: flex;
+	flex-flow: wrap;
 }
 
 
@@ -565,8 +601,6 @@ footer
 	background-color: #F2F2F2;
 	width: 100%;
 	margin-top: 40px;
-	position: absolute;
-	left: 0px;
 }
 
 /* ul & div */
@@ -599,7 +633,7 @@ footer
 
 .about_ul1-2
 {
-	width: 500px;
+	margin-right: 300px;
 }
 
 .about_ul2-3
@@ -608,14 +642,6 @@ footer
 }
 
 
-
-
-/* small resolution */
-
-/* .container_1-2 */
-/* { */
-	/* display: flex; */
-/* } */
 
 
 
