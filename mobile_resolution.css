@@ -1,6 +1,55 @@
 @media screen and (max-width: 600px)
 {
+	.vanish
+	{
+		display: none;
+	}
+
+	.menu_list_mobile_options
+	{
+		display: flex;
+		list-style-type: none;
+	}
 	
+	.menu_list_mobile_options a
+	{
+		padding: 80px;
+		text-decoration: none;
+		padding-bottom: 5px;
+		border-bottom: solid #F2F2F2;
+	}
+	
+	.menu_list_mobile_options a:visited
+	{
+		color: #000;
+	}
+
+	.menu_list_mobile_options a:hover
+	{
+		color: #0065FC;
+	}
+
+	.menu_list_mobile_accommodation
+	{
+		
+	}
+
+	.menu_list_mobile_activities
+	{
+		
+	}
+
+	.menu_list_mobile
+	{
+		display: flex;
+	}
+	
+	header_mobile
+	{
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
 }
 
 

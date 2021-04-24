@@ -80,7 +80,6 @@ body
 {
 	color: #0065FC;
 	border-top: solid #0065FC;
-	
 }
 
 header
@@ -96,11 +95,15 @@ header
 	font-weight: bold;
 }
 
+.menu_list_mobile_options
+{
+	display: none;
+}
 
-
-
-
-
+.menu_list_mobile
+{
+	display: none;
+}
 
 
 
@@ -640,6 +643,18 @@ footer
 {
 	padding-left: 0px;
 }
+
+
+
+
+
+
+
+
+
+/* mobile */
+
+
 
 
 
