@@ -1,10 +1,45 @@
-@media screen and (max-width: 600px)
+/* mobile version of the site */
+
+@media screen and (max-width: 425px)
 {
-	.vanish
+	.vanish_mobile
 	{
 		display: none;
 	}
+	
+	.diplay_mobile
+	{
+		display: contents;
+	}
 
+/* Header */
+
+	.logo_reservia
+	{
+		margin-top: 19px;
+		margin-left: 23px;
+	}
+	
+	.menu_list
+	{
+		margin-right: 0px;
+	}
+
+	header_mobile
+	{
+		display: flex;
+		width: 100%;
+		justify-content: space-between; 
+	}
+	
+	.menu_list_mobile
+	{
+		display: flex;
+		border-bottom: solid 4px;
+		border-color: #F2F2F2;
+		width: 100%;
+	}
+	
 	.menu_list_mobile_options
 	{
 		display: flex;
@@ -13,10 +48,9 @@
 	
 	.menu_list_mobile_options a
 	{
-		padding: 80px;
+		padding: 40px;
+		padding-bottom: 16px;
 		text-decoration: none;
-		padding-bottom: 5px;
-		border-bottom: solid #F2F2F2;
 	}
 	
 	.menu_list_mobile_options a:visited
@@ -27,28 +61,64 @@
 	.menu_list_mobile_options a:hover
 	{
 		color: #0065FC;
+		border-bottom: solid 4px;
+		border-color: #0065FC;
 	}
-
+	
 	.menu_list_mobile_accommodation
-	{
-		
+	{	
 	}
 
 	.menu_list_mobile_activities
-	{
-		
+	{		
 	}
 
-	.menu_list_mobile
+/* 1st Sections */
+
+	.first_section
 	{
-		display: flex;
+		margin-left: 23px;
 	}
 	
-	header_mobile
+	.second_section
 	{
-		display: flex;
-		width: 100%;
-		justify-content: space-between;
+		flex-flow: wrap;
+	}
+	
+	.filters
+	{
+		flex-flow: wrap;
+	}
+	
+/* Container 1 & 2 */
+	
+	.container_1-2
+	{
+		flex-flow: wrap-reverse;
+	}
+	
+	.marseille_accommodation
+	{
+		margin-left: 0px;
+	}
+	
+	#container_image_famous
+	{
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	
+/* 3rd section */
+	
+	.third_section
+	{
+	}
+	
+/* Footer */
+	
+	.about_div
+	{
+		flex-flow: column;
 	}
 }
 
