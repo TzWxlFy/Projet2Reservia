@@ -234,11 +234,7 @@
 
 @media screen and (max-width: 600px)
 {
-	.vanish_mobile
-	{
-		display: none;
-	}
-
+	
 /* Header */
 
 	.logo_reservia
@@ -251,6 +247,11 @@
 	{
 		margin-right: 0px;
 	}
+	
+	.menu_list a:hover
+	{
+		color: #0065FC;
+	}
 
 	header_mobile
 	{
@@ -259,54 +260,13 @@
 		justify-content: space-between; 
 	}
 	
-	.menu_list_mobile
-	{
-		display: flex;
-		border-bottom: solid 4px;
-		border-color: #F2F2F2;
-		width: 100%;
-	}
-	
-	.menu_list_mobile_options
-	{
-		display: flex;
-		list-style-type: none;
-	}
-	
-	.menu_list_mobile_options a
-	{
-		padding: 40px;
-		padding-bottom: 16px;
-		text-decoration: none;
-	}
-	
-	.menu_list_mobile_options a:visited
-	{
-		color: #000;
-	}
-
-	.menu_list_mobile_options a:hover
-	{
-		color: #0065FC;
-		border-bottom: solid 4px;
-		border-color: #0065FC;
-	}
-	
-	.menu_list_mobile_accommodation
-	{	
-	}
-
-	.menu_list_mobile_activities
-	{		
-	}
-
 /* 1st Sections */
 
 	.first_section
 	{
 		margin-left: 20px;
 	}
-		
+	
 /* 2nd section */
 
 	.second_section
@@ -315,11 +275,16 @@
 		margin-left: 0px;
 	}
 	
+	.second_section h4
+	{
+		margin-top: 0px;
+	}
+	
 	.filters
 	{
 		flex-flow: wrap;
 	}
-		
+	
 	.filters h4
 	{
 		margin: 0px;
