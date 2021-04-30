@@ -2,7 +2,7 @@
 <html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
     <title>Reservia</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="stylesheet" media="screen and (max-width: 600px)" href="others_resolution.css" />
+	<link rel="stylesheet" type="text/css" href="others_resolution.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://kit.fontawesome.com/6bfc1fd3f9.js" crossorigin="anonymous"></script>
 	<meta charset="UTF-8">
@@ -19,8 +19,8 @@
 			
 		<ul class="menu_list">
 			
-			<li><a href="#accommodation" class="vanish_mobile"> Hébergements </a></li>
-			<li><a href="#activities" class="vanish_mobile"> Activités </a></li>
+			<li><a href="#accommodation" id="accommodation"> Hébergements </a></li>
+			<li><a href="#activities" id="activities"> Activités </a></li>
 			<li><a class="link_login"> S'inscire </a></li>
 					
 		</ul>
@@ -29,26 +29,6 @@
 		
 </header>
 
-<header class="header_mobile">
-
-<!-- menu list version mobile -->
-
-<div class="menu_list_mobile">
-	
-	<nav>
-
-		<ul class="menu_list_mobile_options">
-				
-			<li><a href="#accommodation"> Hébergements </a></li>
-			<li><a href="#activities"> Activités </a></li>
-						
-		</ul>
-			
-	</nav>
-	
-</div>
-
-</header>
 <!-- 1st Sections -->
 
 	<section class="first_section">
@@ -61,7 +41,8 @@
 			<p class="search_city">
 				<i class="fas fa-map-marker-alt"></i>
 				<input type="text" name="location" id="location" maxlength="40" placeholder="    Marseille, France"/>
-				<label for="location">Rechercher</label>
+				<label class="vanish_mobile" for="location">Rechercher</label>
+				<label class="vanish" for="location"><i class="fas fa-search"></i></label>
 			</p>
 			
 		</form>
@@ -75,7 +56,7 @@
 				<section class="filters">
 				
 					<h4><i class="fas fa-money-bill-wave"></i>Économique</h4>
-					<h4><i class="fas fa-child filter_2_image" style="padding-left: 14px; padding-right: 13px;"></i>Familial</h4>
+					<h4><i class="fas fa-child" id="filter_2_image"></i>Familial</h4>
 					<h4><i class="fas fa-heart"></i>Romantique</h4>
 					<h4><i class="fas fa-dog"></i>Animaux autorisés</h4>
 				

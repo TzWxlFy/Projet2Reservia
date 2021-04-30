@@ -35,6 +35,11 @@ body
 	margin: 0px;
 }
 
+.vanish
+{
+	display: none; 
+}
+
 
 
 /* Header */
@@ -63,6 +68,7 @@ body
 	list-style-type: none;
 	margin-right: 32px;
 	margin-top: 34px;
+	padding-left: 0px;
 }
 
 .menu_list a
@@ -119,7 +125,7 @@ header
 	display: flex;
 }
 
-.search_city i
+.search_city .fa-map-marker-alt
 {
 	background-color: #F2F2F2;
 	padding: 12px;
@@ -205,7 +211,7 @@ header
 	border: 0px;
 }
 
-.filter_2_image
+#filter_2_image
 {
 	padding-left: 14px;
 	padding-right: 13px;
