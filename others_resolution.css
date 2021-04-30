@@ -38,7 +38,6 @@
 		border-bottom: solid #F2F2F2;
 		width: 100%;
 		padding-bottom: 10px;
-		/* justify-content: space-between; */
 	}
 	
 	.menu_list a
@@ -54,36 +53,38 @@
 		border-top: none;
 	}	
 
-	#accommodation
+	#accommodation_menu_list
 	{
 		padding-left: 36px;
 		padding-right: 40px;
 	}
 
-	#activities
+	#activities_menu_list
 	{
-		padding-right: 65px;
 		padding-left: 60px;
+		padding-right: 65px;
 	}
 
 /* 1st Sections */
 
 	.first_section
 	{
-		margin-left: 28px;
-	}
-	
-	.search_city
-	{
-		/* justify-content: center; */
+		margin-left: 20px;
 	}
 	
 	.search_city .fa-search
 	{
-		position: absolute; 
+		position: relative; 
 		background-color: #0065FC;
 		padding: 12px;
 		border-radius: 12px;
+		right: 25px;
+		padding-bottom: 26px;
+	}
+	
+	.search_city input
+	{
+		width: 161%;
 	}
 	
 	.search_city label
@@ -127,6 +128,7 @@
 	
 	.marseille_accommodation
 	{
+		width: 100%;
 		margin-left: 0px;
 		background-color: white; 
 	}
@@ -138,30 +140,39 @@
 	
 	#container_image_marseille
 	{
+		margin-right: auto;
+		margin-left: auto;
 		padding-left: 0px;
+		width: 357px; 
 	}
 	
 	#container_image_marseille figure
 	{
+		width: 90%;
 		margin-bottom: 0px;
 	}
 	
 	.accommodation_image 
 	{
-		width: 330px;
+		width: 97%;
 	}
 	
 	#container_image_famous
 	{
-		margin-right: 0px;
+		margin-right: 14px;
 		margin-left: 0px;
 		border-radius: 0px;
-		width: 375px;
+		width: 100%;
 	}
 	
 	.title_i_famous
 	{
 		align-items: baseline; 
+	}
+	
+	.accommodation_famous
+	{
+		width: 100%
 	}
 	
 	.accommodation_famous h1
@@ -171,20 +182,21 @@
 	
 	.famous_i
 	{
-		margin-right: 64px;
+		margin-right: 19px;
 	}
 	
 	.figure_famous
 	{
-		width: 356px;
+		width: 340px;
 		margin-bottom: 0px;
-		margin-right: 0px;
-		margin-left: 9px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 	
 	.accommodation_image_famous
 	{
 		height: 155px;
+		width: 133px;
 	}
 	
 	.figcaption_accommo_famous
@@ -201,26 +213,34 @@
 	
 	.third_section
 	{
+		width: 100%;
 		margin-top: 23px;
-		margin-left: 10px;
+		margin-left: 0px;
 	}
 	
 	.third_section h1
 	{
-		padding-left: 10px;
+		padding-left: 20px;
 	}
 	
 	.activities_figure
 	{
-		width: 354px;
+		width: 320px;
 		height: 203px;
 		margin-bottom: 0px;
-		margin-right: 0px;
+		margin-right: auto;
+		margin-left: auto; 
+	}
+	
+	.activities_div
+	{
+		margin-left: auto;
+		margin-right: auto; 
 	}
 	
 	.activities_img
 	{
-		width: 354px;
+		width: 320px;
 		height: 140px;
 	}
 	
