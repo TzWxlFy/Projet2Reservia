@@ -232,7 +232,7 @@
 		margin-left: auto; 
 	}
 	
-	.activities_div
+	.activities_div_mobile
 	{
 		margin-left: auto;
 		margin-right: auto; 
@@ -243,6 +243,7 @@
 		width: 320px;
 		height: 140px;
 	}
+
 	
 /* Footer */
 	
@@ -272,14 +273,262 @@
 
 
 
-@media screen and (max-width: 975px)
 
 
 
 
 
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 
+
+
+
+/*
+
+
+
+
+
+/* ipad version of the site *
+
+@media screen and (max-width: 768px)
+{
+	.vanish_mobile
+	{
+		display: none; 
+	}
+
+	.vanish
+	{
+		display: flex; 
+	}
+
+/* Header *
+
+	header
+	{
+		border-bottom: solid #F2F2F2;
+	}
+
+	.logo_reservia
+	{
+		margin-top: 19px;
+		margin-left: 23px;
+	}
+	
+	.menu_list
+	{
+		border-bottom: none;
+	}
+	
+	.menu_list a
+	{
+		padding-bottom: 10px;
+	}
+	
+	.menu_list a:hover
+	{
+		color: #0065FC;
+		border-bottom: none;
+		border-top: none;
+	}	
+	
+/* 1st Sections *
+
+	.first_section
+	{
+		margin-left: 20px;
+	}
+	
+	.search_city label
+	{
+		width: auto;
+	}
+	
+/* 2nd section *
+
+	.second_section
+	{
+		flex-flow: wrap;
+		margin-left: 0px;
+		align-items: center;
+		justify-content: space-between; 
+	}
+	
+	.filters
+	{
+		flex-flow: column;
+	}
+		
+	.filters h4
+	{
+		margin: 0px;
+		margin-bottom: 8px;
+		margin-right: 10px;
+	}
+	
+	.info
+	{
+		margin-top: 10px;
+		justify-content: center;
+	}
+
+/* Container 1 & 2 *
+	
+	.container_1-2
+	{
+		background-color: #F2F2F2;
+	}
+	
+	.marseille_accommodation
+	{
+		width: 100%;
+		margin-left: 0px;
+		background-color: transparent; 
+	}
+	
+	.marseille_accommodation h1
+	{
+		padding-left: 20px;
+	}
+	
+	#container_image_marseille
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 0px;
+		width: 357px; 
+	}
+	
+	#container_image_marseille figure
+	{
+		width: 90%;
+		margin-bottom: 0px;
+	}
+	
+	.accommodation_image 
+	{
+		width: 97%;
+	}
+	
+	#container_image_famous
+	{
+		width: 100%;
+		margin-left: 0px;
+		background-color: transparent; 
+	}
+	
+	.title_i_famous
+	{
+		align-items: baseline; 
+	}
+	
+	.accommodation_famous
+	{
+		width: 100%
+	}
+	
+	.accommodation_famous h1
+	{
+		padding-left: 20px;
+	}
+	
+	.famous_i
+	{
+		margin-right: 19px;
+	}
+	
+	.figure_famous
+	{
+		width: 340px;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.accommodation_image_famous
+	{
+		height: 155px;
+		width: 133px;
+	}
+	
+	.figcaption_accommo_famous
+	{
+		height: 163px;
+	}
+	
+	.star_famous
+	{
+		padding-top: 47px;
+	}
+
+/* 3rd section *
+	
+	.third_section
+	{
+		width: 100%;
+		margin-top: 23px;
+		margin-left: 0px;
+	}
+	
+	.third_section h1
+	{
+		padding-left: 20px;
+	}
+	
+	.activities_figure
+	{
+		width: 320px;
+		height: 203px;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto; 
+	}
+	
+	.activities_div_mobile
+	{
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	
+	.activities_img
+	{
+		width: 320px;
+		height: 140px;
+	}
+	
+	#activities_img1-4_ipad
+	{
+		height: 363px;
+	}
+	
+	#activities_figure1-4_ipad
+	{
+		height: 422px;
+	}
+	
+/* Footer *
+	
+	.about_div
+	{
+		justify-content: space-around; 
+	}
+	
+	.about_ul
+	{
+		padding-bottom: 0px;
+	}
+	
+	.about_ul1-2
+	{
+		margin-right: 0px;
+	}
+}
+
+
+
+*/
 
