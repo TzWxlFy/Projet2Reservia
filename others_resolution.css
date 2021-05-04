@@ -286,13 +286,13 @@
 
 
 
-/*
 
 
 
 
 
-/* ipad version of the site *
+
+/* ipad version of the site */
 
 @media screen and (max-width: 768px)
 {
@@ -306,17 +306,28 @@
 		display: flex; 
 	}
 
-/* Header *
+/* Header */
 
 	header
 	{
 		border-bottom: solid #F2F2F2;
 	}
 
+	/* .logo_reservia */
+	/* { */
+		/* margin-top: 19px; */
+		/* margin-left: 23px; */
+	/* } */
+
 	.logo_reservia
 	{
-		margin-top: 19px;
 		margin-left: 23px;
+		border-right: solid #F2F2F2; 
+		padding-right: 95px;
+		padding-top: 17px;
+		padding-bottom: 19px;
+		margin-top: 0px;
+		padding-left: 63px;
 	}
 	
 	.menu_list
@@ -333,14 +344,18 @@
 	{
 		color: #0065FC;
 		border-bottom: none;
-		border-top: none;
 	}	
 	
-/* 1st Sections *
+/* 1st Sections */
 
 	.first_section
 	{
 		margin-left: 20px;
+	}
+	
+	.search_city
+	{
+		justify-content: center;
 	}
 	
 	.search_city label
@@ -348,7 +363,7 @@
 		width: auto;
 	}
 	
-/* 2nd section *
+/* 2nd section */
 
 	.second_section
 	{
@@ -360,7 +375,7 @@
 	
 	.filters
 	{
-		flex-flow: column;
+		flex-flow: column;	/* enlever le 'column' pour remettre les filtres normaux sur la version mobile */
 	}
 		
 	.filters h4
@@ -376,11 +391,11 @@
 		justify-content: center;
 	}
 
-/* Container 1 & 2 *
+/* Container 1 & 2 */
 	
 	.container_1-2
 	{
-		background-color: #F2F2F2;
+		background-color: #F2F2F2;	/* enlever le background pour la version mobile */
 	}
 	
 	.marseille_accommodation
@@ -418,7 +433,7 @@
 	{
 		width: 100%;
 		margin-left: 0px;
-		background-color: transparent; 
+		background-color: transparent;	/* enlever le background pour la version mobile */
 	}
 	
 	.title_i_famous
@@ -465,7 +480,7 @@
 		padding-top: 47px;
 	}
 
-/* 3rd section *
+/* 3rd section */
 	
 	.third_section
 	{
@@ -502,15 +517,15 @@
 	
 	#activities_img1-4_ipad
 	{
-		height: 363px;
+		height: 363px;	/* enlever la hauteur pour la version mobile */
 	}
 	
 	#activities_figure1-4_ipad
 	{
-		height: 422px;
+		height: 422px;	/* enlever la hauteur pour la version mobile */
 	}
 	
-/* Footer *
+/* Footer */
 	
 	.about_div
 	{
@@ -530,5 +545,5 @@
 
 
 
-*/
+
 
