@@ -20,21 +20,15 @@
 		width: 100%;
 	}
 
-	/* .logo_reservia */
-	/* { */
-		/* margin-top: 19px; */
-		/* margin-left: 23px; */
-	/* } */
-
 	.logo_reservia
 	{
-		margin-left: 23px;
+		margin-left: 13px;
 		border-right: solid #F2F2F2; 
-		padding-right: 55px;
+		padding-right: 19px;
 		padding-top: 17px;
 		padding-bottom: 19px;
 		margin-top: 0px;
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 	
 	.menu_list
@@ -45,7 +39,7 @@
 	
 	.menu_list a
 	{
-		padding-left: 11%;
+		padding-left: 0%;
 	}
 	
 	.menu_list a:hover
@@ -85,7 +79,7 @@
 	{
 		flex-flow: column;	/* enlever le 'column' pour remettre les filtres normaux sur la version mobile */
 	}
-		
+	
 	.filters h4
 	{
 		margin: 0px;
@@ -108,7 +102,7 @@
 	
 	.marseille_accommodation
 	{
-		width: 100%;
+		width: 48%;
 		margin-left: 0px;
 		background-color: transparent; 
 	}
@@ -116,6 +110,7 @@
 	.marseille_accommodation h1
 	{
 		padding-right: 75px;
+		width: 293px;
 	}
 	
 	.marseille_accommodation_h1
@@ -140,7 +135,7 @@
 	
 	.accommodation_image 
 	{
-		width: 97%;
+		width: 98%;
 	}
 	
 	.figcaption_accommo
@@ -187,13 +182,13 @@
 	.accommodation_image_famous
 	{
 		height: 155px;
-		width: 44%;
+		width: 39%;
 	}
 	
 	.figcaption_accommo_famous
 	{
 		height: 163px;
-		width: 54%;
+		width: 60%;
 	}
 	
 	.star_famous
@@ -355,7 +350,7 @@
 	#activities_menu_list
 	{
 		padding-left: 60px;
-		padding-right: 65px;
+		padding-right: 9px;
 	}
 
 /* 1st Sections */
@@ -436,18 +431,20 @@
 		margin-right: auto;
 		margin-left: auto;
 		padding-left: 0px;
-		width: 357px; 
+		width: 100%; 
 	}
 	
 	#container_image_marseille figure
 	{
-		width: 90%;
+		width: 88%;
+		margin-left: auto;
+		margin-right: auto;
 		margin-bottom: 0px;
 	}
 	
 	.accommodation_image 
 	{
-		width: 97%;
+		width: 97.7%;
 	}
 	
 	#container_image_famous
@@ -480,7 +477,7 @@
 	
 	.figure_famous
 	{
-		width: 340px;
+		width: 86%;
 		margin-bottom: 0px;
 		margin-right: auto;
 		margin-left: auto;
@@ -489,12 +486,13 @@
 	.accommodation_image_famous
 	{
 		height: 155px;
-		width: 133px;
+		width: 35%;
 	}
 	
 	.figcaption_accommo_famous
 	{
 		height: 163px;
+		width: 63%;
 	}
 	
 	.star_famous
@@ -518,11 +516,16 @@
 	
 	.activities_figure
 	{
-		width: 320px;
+		width: 90%;
 		height: 203px;
 		margin-bottom: 0px;
 		margin-right: auto;
 		margin-left: auto; 
+	}
+	
+	.activities_div
+	{
+		display: block;
 	}
 	
 	.activities_div_mobile
@@ -533,7 +536,7 @@
 	
 	.activities_img
 	{
-		width: 320px;
+		width: 100%;
 		height: 140px;
 	}
 

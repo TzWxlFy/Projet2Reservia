@@ -192,7 +192,6 @@ header
 .filters h4:hover
 {
 	color: #0065FC;
-	border-color: #DEEBFF;
 	background-color: #DEEBFF;
 }
 
@@ -202,7 +201,6 @@ header
 	background-color: #DEEBFF;
 	border-style: solid; 
 	border-radius: 20px;
-	border-color: #DEEBFF;
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
@@ -286,7 +284,6 @@ header
 	border-width: 4px;
 	border-bottom-width: 0px;
 	border-style: solid;
-	background-color: white;
 	border-color: white;
 	object-fit: cover; 
 }
@@ -388,7 +385,6 @@ header
 	width: 148px;
 	border-width: 4px;
 	border-style: solid;
-	background-color: white;
 	border-color: white;
 	object-fit: cover; 
 	border-top-left-radius: 25px;
