@@ -109,8 +109,8 @@
 	
 	.marseille_accommodation h1
 	{
-		padding-right: 75px;
-		width: 293px;
+		padding-right: 0px;
+		width: 335px;
 	}
 	
 	.marseille_accommodation_h1
@@ -122,7 +122,7 @@
 	#container_image_marseille
 	{
 		margin-right: auto;
-		margin-left: auto;
+		margin-left: 4%;
 		padding-left: 0px;
 		width: 86%; 
 	}
