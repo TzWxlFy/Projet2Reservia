@@ -193,7 +193,12 @@
 	
 	.star_famous
 	{
-		padding-top: 47px;
+		padding-top: 0px;
+	}
+	
+	.margin-left_first_star
+	{
+		margin-left: 5%;
 	}
 
 /* 3rd section */
