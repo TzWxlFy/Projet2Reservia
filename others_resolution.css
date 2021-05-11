@@ -135,7 +135,7 @@
 	
 	.accommodation_image 
 	{
-		width: 98%;
+		width: 97%;
 	}
 	
 	.figcaption_accommo
@@ -288,7 +288,7 @@
 
 /* mobile version of the site */
 
-@media screen and (max-width: 480px)
+@media screen and (min-width: 320px) and (max-width: 480px)
 {
 	.vanish_mobile
 	{
@@ -320,6 +320,11 @@
 		margin-left: 23px;
 	}
 	
+	.header_nav
+	{
+		width: 100%;
+	}
+	
 	.menu_list
 	{
 		margin-right: 0px;
@@ -340,17 +345,22 @@
 		border-bottom: solid #0065FC;
 		border-top: none;
 	}	
+	
+	.header_li
+	{
+		width: 50%;
+	}
 
 	#accommodation_menu_list
 	{
-		padding-left: 36px;
-		padding-right: 40px;
+		padding-left: 21%;
+		padding-right: 21%;
 	}
 
 	#activities_menu_list
 	{
-		padding-left: 60px;
-		padding-right: 9px;
+		padding-left: 33%;
+		padding-right: 33%;
 	}
 
 /* 1st Sections */
@@ -568,3 +578,308 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* part 2 of mobile version */
+
+@media screen and (max-width: 320px)
+{
+	.vanish_mobile
+	{
+		display: none; 
+	}
+
+	.vanish
+	{
+		display: flex; 
+	}
+
+/* Header */
+
+	header
+	{
+		flex-direction: column; 
+	}
+	
+	.link_login
+	{
+		position: absolute;
+		top: 37px;
+		right: 31px;
+	}
+
+	.logo_reservia
+	{
+		margin-top: 19px;
+		margin-left: 23px;
+	}
+	
+	.header_nav
+	{
+		width: 100%;
+	}
+	
+	.menu_list
+	{
+		margin-right: 0px;
+		border-bottom: solid #F2F2F2;
+		width: 100%;
+		padding-bottom: 10px;
+	}
+	
+	.menu_list a
+	{
+		padding: 0px;
+		padding-bottom: 10px;
+	}
+	
+	.menu_list a:hover
+	{
+		color: #0065FC;
+		border-bottom: solid #0065FC;
+		border-top: none;
+	}	
+	
+	.header_li
+	{
+		width: 50%;
+	}
+
+	#accommodation_menu_list
+	{
+		padding-left: 16%;
+		padding-right: 16%;
+	}
+
+	#activities_menu_list
+	{
+		padding-left: 30%;
+		padding-right: 30%;
+	}
+
+/* 1st Sections */
+
+	.first_section
+	{
+		margin-left: 20px;
+	}
+	
+	.search_city .fa-search
+	{
+		position: relative; 
+		background-color: #0065FC;
+		padding: 12px;
+		border-radius: 12px;
+		right: 25px;
+		padding-bottom: 26px;
+	}
+	
+	.search_city input
+	{
+		width: 161%;
+	}
+	
+	.search_city label
+	{
+		background-color: white; 
+		padding: 0px;
+		padding-top: 0px;
+	}
+	
+/* 2nd section */
+
+	.second_section
+	{
+		flex-flow: wrap;
+		margin-left: 0px;
+	}
+	
+	.filters
+	{
+		flex-flow: wrap;
+	}
+		
+	.filters h4
+	{
+		margin: 0px;
+		margin-bottom: 8px;
+		margin-right: 10px;
+	}
+	
+	.info
+	{
+		margin-top: 10px;
+	}
+
+/* Container 1 & 2 */
+	
+	.container_1-2
+	{
+		flex-flow: wrap-reverse;
+	}
+	
+	.marseille_accommodation
+	{
+		width: 100%;
+		margin-left: 0px;
+		background-color: white; 
+	}
+	
+	.marseille_accommodation h1
+	{
+		padding-left: 20px;
+	}
+	
+	#container_image_marseille
+	{
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 0px;
+		width: 100%; 
+	}
+	
+	#container_image_marseille figure
+	{
+		width: 88%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0px;
+	}
+	
+	.accommodation_image 
+	{
+		width: 96.7%;
+	}
+	
+	#container_image_famous
+	{
+		margin-right: 14px;
+		margin-left: 0px;
+		border-radius: 0px;
+		width: 100%;
+	}
+	
+	.title_i_famous
+	{
+		align-items: baseline; 
+	}
+	
+	.accommodation_famous
+	{
+		width: 100%
+	}
+	
+	.accommodation_famous h1
+	{
+		padding-left: 20px;
+	}
+	
+	.famous_i
+	{
+		margin-right: 19px;
+	}
+	
+	.figure_famous
+	{
+		width: 86%;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	.accommodation_image_famous
+	{
+		height: 155px;
+		width: 35%;
+	}
+	
+	.figcaption_accommo_famous
+	{
+		height: 163px;
+		width: 63%;
+	}
+	
+	.star_famous
+	{
+		padding-top: 47px;
+	}
+
+/* 3rd section */
+	
+	.third_section
+	{
+		width: 100%;
+		margin-top: 23px;
+		margin-left: 0px;
+	}
+	
+	.third_section h1
+	{
+		padding-left: 20px;
+	}
+	
+	.activities_figure
+	{
+		width: 90%;
+		height: 203px;
+		margin-bottom: 0px;
+		margin-right: auto;
+		margin-left: auto; 
+	}
+	
+	.activities_div
+	{
+		display: block;
+	}
+	
+	.activities_div_mobile
+	{
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	
+	.activities_img
+	{
+		width: 100%;
+		height: 140px;
+	}
+
+	
+/* Footer */
+	
+	.about_div
+	{
+		flex-flow: column;
+	}
+	
+	.about_ul
+	{
+		padding-bottom: 0px;
+	}
+	
+	.about_ul1-2
+	{
+		margin-right: 0px;
+	}
+	
+	.about_ul2-3
+	{
+		padding-left: 40px;
+	}
+}
