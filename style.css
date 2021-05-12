@@ -244,6 +244,11 @@ header
 	margin-right: 15px;
 }
 
+.container_1-2
+{
+	display: flex;
+}
+
 .marseille_accommodation
 {
 	width: 814px;
@@ -372,11 +377,6 @@ header
 	border-radius: 25px;
 	margin-right: 32px;
 	margin-left: 75px;
-}
-
-.container_1-2
-{
-	display: flex;
 }
 
 .accommodation_image_famous
