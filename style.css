@@ -501,19 +501,30 @@ header
 .activities_div
 {
 	display: flex;
+	justify-content: space-evenly;
 }
 
+.activities_div2-3
+{
+	margin-right: 0px;
+}
+
+.activities_div5-6
+{
+	margin-right: 0px;
+}
 
 
 /* all image */
 
 .activities_figure
 {
-	width: 87.2%;
+	width: 290px;
 	height: 487px;
 	margin-left: 0px; 
 	box-shadow: 1px 1px 12px #cac7c6;
 	border-radius: 25px;
+	margin-right: 40px;
 }
 
 .activities_img
