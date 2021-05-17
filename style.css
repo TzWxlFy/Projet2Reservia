@@ -248,7 +248,7 @@ header
 .container_1-2
 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .marseille_accommodation
@@ -377,8 +377,7 @@ header
 	top: -638px;
 	background-color: #F2F2F2; 
 	border-radius: 25px;
-	margin-right: 32px;
-	margin-left: 75px;
+	margin-right: 40px;
 }
 
 .accommodation_image_famous
