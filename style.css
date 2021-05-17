@@ -501,8 +501,6 @@ header
 .activities_div
 {
 	display: flex;
-	flex-flow: wrap;
-	justify-content: space-evenly; 
 }
 
 
@@ -511,7 +509,7 @@ header
 
 .activities_figure
 {
-	width: 300px;
+	width: 87.2%;
 	height: 487px;
 	margin-left: 0px; 
 	box-shadow: 1px 1px 12px #cac7c6;
@@ -521,7 +519,7 @@ header
 .activities_img
 {
 	object-fit: cover;
-	width: 300px;
+	width: 100%;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 }
@@ -530,6 +528,7 @@ header
 {
 	padding-left: 20px;
 }
+
 
 
 /* image 1 & 4 */

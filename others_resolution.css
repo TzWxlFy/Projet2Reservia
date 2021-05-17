@@ -233,6 +233,12 @@
 		margin-left: auto; 
 	}
 	
+	.activities_div
+	{
+		flex-flow: wrap;
+		justify-content: space-evenly; 
+	}
+	
 	.activities_div_mobile
 	{
 		margin-left: auto;
